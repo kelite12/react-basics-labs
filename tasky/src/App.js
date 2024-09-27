@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Task from './components/Task';
@@ -7,9 +8,9 @@ function App() {
     <div className="container">
       <h1>Tasky</h1>
       <Task title="Dishes" deadline="Today">
-      Empty dishwater </Task>
+     <i> Empty dishwater </i></Task>
       <Task title="Laundry" deadline="Tomorrow">
-          Fold laundry and put away 
+          <i>Fold laundry and put away </i>
       </Task>
       <Task title="Tidy" deadline="Today" />
     </div>
