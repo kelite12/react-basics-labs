@@ -7,11 +7,8 @@ function App() {
   return (
     <div className="container">
       <h1>Tasky</h1>
-      <Task title="Dishes" deadline="Today">
-     <i> Empty dishwater </i></Task>
-      <Task title="Laundry" deadline="Tomorrow">
-          <i>Fold laundry and put away </i>
-      </Task>
+      <Task title="Dishes" deadline="Today" discrption="Empty dishwater"/>
+      <Task title="Laundry" deadline="Tomorrow" discrption="Fold laundry and put away"/>
       <Task title="Tidy" deadline="Today" />
     </div>
   );
