@@ -86,3 +86,7 @@ form {
   width: 50%;
   margin: auto;
 }
+.level {
+  font-weight: bold;
+  font-size: 1.0em; 
+}
